@@ -18,7 +18,7 @@ const ProfileEarning = () => {
       shadow="md"
       m={{base: "auto", xl: 3 }}
       w={{base: '315px', md: '364px'}}
-      h="469px"
+      h={{base: 'fit-content', xl: '469px'}}
       display="flex"
       flexDirection="column"
       alignItems="center"

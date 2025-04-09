@@ -24,6 +24,7 @@ const Content = () => {
       >
         <MotionBox
           w={{ base: '100%', lg: '30%' }}
+          mx= 'auto'
           layout
           transition={{ duration: 0.4 }}
         >
