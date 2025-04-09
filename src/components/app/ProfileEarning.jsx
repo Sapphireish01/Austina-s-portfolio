@@ -16,7 +16,7 @@ const ProfileEarning = () => {
       color="white"
       p={4}
       shadow="md"
-      m={{base: "auto", xl: 0 }}
+      m={{base: "auto", xl: 3 }}
       w={{base: '315px', md: '364px'}}
       h="469px"
       display="flex"

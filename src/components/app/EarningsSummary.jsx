@@ -63,7 +63,9 @@ export default function EarningsSummary() {
   ];
 
   return (
-    <Box bg="white" borderRadius="xl" p={6} shadow="md" w="full" h="fit-content">
+    <Box bg="white" borderRadius="xl" p={6} shadow="md" w={{ base: '100%', md: '90%', lg: '75%' }}
+    maxW="1200px"
+    mx="auto" h="fit-content">
       <Heading as="h2" fontSize="xl" mb={4}>
         Earnings Summary
       </Heading>
