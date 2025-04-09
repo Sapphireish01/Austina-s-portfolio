@@ -32,7 +32,7 @@ const Content = () => {
         </MotionBox>
 
         <MotionBox
-          w="full"
+          w="70%"
           layout
           transition={{ duration: 0.4 }}
         >
